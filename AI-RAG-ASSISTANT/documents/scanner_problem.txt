@@ -1,0 +1,122 @@
+Problem:
+Scanner not detecting USB
+
+Cause:
+USB driver missing or port issue
+
+Solution:
+1 Check USB cable
+2 Install scanner driver
+3 Restart scanner
+4 Try another port
+
+Recommended Product:
+Industrial Barcode Scanner ZX400
+
+Problem:
+Barcode not reading / scanning failure
+Cause:
+Damaged barcode, dirty scan window, or wrong symbology enabled
+Solution:
+1 Clean the scan window with a soft cloth
+2 Verify barcode symbology is enabled in scanner settings
+3 Check barcode print quality and contrast
+4 Adjust scanner distance from barcode
+Recommended Product:
+Zebra DS2208 Handheld Scanner
+
+Problem:
+Scanner not pairing with Bluetooth
+Cause:
+Bluetooth interference, out of range, or pairing mode not activated
+Solution:
+1 Ensure scanner is in Bluetooth pairing mode
+2 Keep scanner within 10 meters of the host device
+3 Remove interference from other Bluetooth devices
+4 Scan the Factory Default barcode and re-pair
+Recommended Product:
+Zebra CS6080 Cordless Scanner
+
+Problem:
+Scanner battery draining too fast
+Cause:
+Old battery, excessive backlight usage, or firmware issue
+Solution:
+1 Replace battery with a genuine Zebra replacement
+2 Reduce display brightness and backlight timeout
+3 Update scanner firmware to the latest version
+4 Disable unused radios (Wi-Fi, Bluetooth) when not needed
+Recommended Product:
+Zebra MC3300 Mobile Computer
+
+Problem:
+Beep sound but no data transmitted
+Cause:
+Incorrect interface configuration or missing COM port assignment
+Solution:
+1 Verify scanner interface type (USB-HID vs USB-COM)
+2 Reinstall or reassign the correct COM port in Device Manager
+3 Scan the correct interface configuration barcode from the manual
+4 Test with a different host application to isolate the issue
+Recommended Product:
+Zebra LS2208 General Purpose Scanner
+
+Problem:
+Scanner freezing or becoming unresponsive
+Cause:
+Firmware crash, memory overload, or corrupted configuration
+Solution:
+1 Perform a soft reset by holding the power button for 10 seconds
+2 Update firmware using Zebra's 123Scan utility
+3 Restore factory defaults by scanning the reset barcode
+4 Clear application cache if running Android-based device
+Recommended Product:
+Zebra TC52 Touch Computer
+
+Problem:
+Scanner not reading 2D barcodes (QR/DataMatrix)
+Cause:
+2D imaging disabled or wrong scan engine type
+Solution:
+1 Confirm scanner model supports 2D imaging (not 1D-only)
+2 Enable 2D symbologies via 123Scan configuration tool
+3 Ensure adequate lighting for 2D code scanning
+4 Hold scanner steady and perpendicular to the barcode
+Recommended Product:
+Zebra DS8100 Series Handheld Imager
+
+Problem:
+Wi-Fi connection dropping frequently
+Cause:
+Weak signal, IP conflict, or incorrect Wi-Fi profile settings
+Solution:
+1 Move closer to the Wi-Fi access point
+2 Check for IP address conflicts on the network
+3 Reconfigure Wi-Fi profile using Zebra StageNow
+4 Update WLAN driver and firmware on the device
+Recommended Product:
+Zebra MC9300 Rugged Mobile Computer
+
+Problem:
+Scanner display not turning on
+Cause:
+Dead battery, hardware fault, or screen lock activated
+Solution:
+1 Charge the device fully before powering on
+2 Perform a hard reset (hold Power + Volume Down for 15 seconds)
+3 Check for physical damage to the display
+4 Contact Zebra support if screen remains unresponsive after reset
+Recommended Product:
+Zebra TC75X Rugged Smartphone
+
+Problem:
+Incorrect or garbled scan data output
+Cause:
+Wrong character set, prefix/suffix mismatch, or decode settings error
+Solution:
+1 Verify the correct character encoding (UTF-8 / ASCII) is configured
+2 Remove unwanted prefix or suffix settings via 123Scan
+3 Scan Set All Defaults barcode from the product manual
+4 Test with a known barcode to confirm output accuracy
+Recommended Product:
+Zebra LI3608 Linear Imager

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Industrial AI Assistant</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+background: linear-gradient(135deg,#4e73df,#1cc88a);
+height:100vh;
+}
+
+.chat-container{
+max-width:850px;
+margin:auto;
+margin-top:40px;
+}
+
+.card{
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+.user-msg{
+background:#4e73df;
+color:white;
+padding:10px 15px;
+border-radius:15px;
+margin:5px;
+float:right;
+clear:both;
+max-width:70%;
+}
+
+.ai-msg{
+background:#e9ecef;
+color:black;
+padding:10px 15px;
+border-radius:15px;
+margin:5px;
+float:left;
+clear:both;
+max-width:70%;
+}
+#chatbox{
+height:420px;
+overflow-y:auto;
+padding:15px;
+background:#f8f9fc;
+border-radius:10px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+.message{
+max-width:70%;
+padding:12px 16px;
+border-radius:18px;
+font-size:15px;
+line-height:1.4;
+}
+
+.user{
+align-self:flex-end;
+background:#4e73df;
+color:white;
+}
+
+.ai{
+align-self:flex-start;
+background:#e9ecef;
+color:#000;
+}
+.input-area{
+display:flex;
+gap:10px;
+margin-top:10px;
+}
+
+#question{
+border-radius:10px;
+}
+
+button{
+border-radius:10px;
+padding:8px 20px;
+}
+
+.title{
+font-weight:700;
+color:#fff;
+text-align:center;
+margin-bottom:20px;
+}
+/* AI Response Card Styling */
+.ai-response {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ai-greet {
+  font-weight: 600;
+  color: #4e73df;
+  margin: 0;
+  font-size: 14px;
+}
+
+.ai-section {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px 14px;
+  border-left: 4px solid #4e73df;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.ai-section ol {
+  margin: 6px 0 0 0;
+  padding-left: 18px;
+}
+
+.ai-section ol li {
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ai-section p {
+  margin: 4px 0 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ai-label {
+  font-weight: 700;
+  font-size: 13px;
+  color: #333;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.product-box {
+  border-left: 4px solid #1cc88a;
+  background: #f0fff8;
+}
+
+.product-box .ai-label {
+  color: #1cc88a;
+}
+
+.ai-footer {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+  font-style: italic;
+}
+.ai-typing::after {
+  content: "|";
+  animation: blink 1s infinite;
+}
+.ai-typing{
+  display:inline-block;
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="chat-container">
+
+<h2 class="title">🤖 Plenum AI Assistant</h2>
+
+<div class="card">
+
+<div class="card-body">
+
+<div id="chatbox"></div>
+
+<div class="input-area">
+
+<input id="question" class="form-control" placeholder="Ask something...">
+
+<button onclick="sendQuestion()" class="btn btn-primary">
+Ask
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="/static/js/chat.js"></script>
+
+</body>
+
+</html>
